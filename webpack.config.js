@@ -11,8 +11,19 @@ const config = {
             {
                 test: /\.(js|jsx)$/,
                 loader: 'babel-loader'
+            },
+            {
+                test: /\.css$/,
+                // loaders for css files
+                // css-loader gets run first and handles the imports of css files inside jsx files
+                // style-loader mounts css into the DOM
+                loader: ['style-loader', 'css-loader']
             }
         ]
+    },
+    // sets the file extensions that webpack should resolve
+    resolve: {
+        extensions: ['.js', '.jsx']
     }
 };
 
