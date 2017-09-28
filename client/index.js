@@ -4,6 +4,6 @@ import './styles/main.css';
 
 // using render method to mount node into the DOM on the 'app' element 
 ReactDOM.render( <
-    div > Calculator ? Why Not Calcunow ? < /div>,
+    div > Calucnow < /div>,
     document.getElementById('app')
 );

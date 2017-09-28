@@ -3,7 +3,7 @@ const path = require('path'); // import node.js path module
 const config = {
     entry: path.join(__dirname, '/client/index.js'),
     output: {
-        path: path.join(__dirname, './public'), // output directory/folder
+        path: path.join(__dirname, './public/'), // output directory/folder
         filename: 'bundle.js' //output bundled filename
     },
     module: {

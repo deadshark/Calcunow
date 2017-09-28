@@ -9829,7 +9829,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _reactDom2.default.render(_react2.default.createElement(
     'div',
     null,
-    ' Calculator ? Why Not Calcunow ? '
+    ' Calucnow '
 ), document.getElementById('app'));
 
 /***/ }),
@@ -22496,7 +22496,7 @@ exports = module.exports = __webpack_require__(86)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n    background-color: black;\n}", ""]);
+exports.push([module.i, "body {\n    background-color: black;\n    color: red\n}", ""]);
 
 // exports
 
