@@ -7,8 +7,8 @@ const config = {
         filename: 'bundle.js' //output bundled filename
     },
     module: {
-        rules: [ // array of rules to handle different file types
-            {
+        // array of rules to handle different file types
+        rules: [{
                 test: /\.(js|jsx)$/,
                 loader: 'babel-loader'
             },
